@@ -1,0 +1,45 @@
+div:hover {
+    border: 6px solid rgb(156, 240, 156);    
+}
+div:nth-of-type(1) {
+    background-color: red;
+}
+
+div:nth-of-type(2) {
+    background-color: teal ;
+}
+
+div:nth-of-type(3) {
+    background-color: blue;
+    height: 100px;
+}
+
+div:nth-of-type(4) {
+    background-color: salmon;
+}
+
+div:nth-of-type(5) {
+    background-color: yellow;
+}
+
+/* Pegando as DIVs e pegando os H3*/
+div:nth-of-type(1) > h3 {
+    color:rgb(156, 240, 156)
+}
+
+div:nth-of-type(2) > h3 {
+    color: purple;
+}
+div:nth-of-type(3) > h3 {
+    color:red;
+}
+div:nth-of-type(4) > h3 {
+    color:tomato solid dark;
+}
+div:nth-of-type(5) > h3 {
+    color:rgb(90, 28, 190);
+}
+
+div:nth-last-child(odd) h3 {
+    font-style: italic;
+}
