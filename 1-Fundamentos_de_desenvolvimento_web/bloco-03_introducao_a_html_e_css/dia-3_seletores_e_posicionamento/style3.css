@@ -1,0 +1,20 @@
+p, h1 {
+    text-align: center;
+    margin:auto;
+}
+
+.pseudo1:hover {
+    background-color: rgb(172, 72, 192);
+    }
+    
+.pseudo1:active {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+li {
+    list-style: none;
+    text-align: center;
+}
+
+
