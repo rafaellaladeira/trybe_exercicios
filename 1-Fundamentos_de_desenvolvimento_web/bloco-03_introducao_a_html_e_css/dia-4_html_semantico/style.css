@@ -2,7 +2,9 @@ h1 {
     text-align: center;
   }
 
-
+  .none li {
+    list-style: none;
+  }
 
   .first {
     background-color: rgb(235, 200, 84);
@@ -11,6 +13,7 @@ h1 {
     text-align: center;
     width: 200px;
     margin: auto;
+    display:block;
   }
 
   .second {
@@ -19,9 +22,10 @@ h1 {
     height: 50px;
     text-align: center;
     width: 300px;
-    display: inline block;
-    margin: auto ;
-  }
+    display: inline-block;
+    margin-left: 32%;
+    
+      }
 
   .third {
     background-color: rgb(170, 142, 106);
@@ -29,17 +33,15 @@ h1 {
     height: 50px;
     text-align: center;
     width: 300px;
-    display: inline block;
-    margin: auto;
+    display: inline-block;
+    
+        
   }
 
-
-   section:nth-of-type(2) {
-      text-align: center;
-      display: inline;
-      list-style: none;
-          }
-
-  .display {
-   display: inline;
+  .teste li {
+    display: inline;
     }
+
+  .teste, h3 {
+    text-align: center;
+  }
