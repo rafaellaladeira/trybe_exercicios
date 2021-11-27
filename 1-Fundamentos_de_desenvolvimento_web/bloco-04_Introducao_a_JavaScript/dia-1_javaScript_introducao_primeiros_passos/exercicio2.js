@@ -52,3 +52,17 @@ if (a % 2 === 0 || b % 2 === 0 || c % 2 === 0) {
 } else {
     console.log("false");
 }
+
+__________________________________________________________________________________________________
+
+// 9) usar somente um If para que se tenha no minimo uma das constantes for IMPAR retornar true:
+
+const d = 24;
+const e = 50;
+const f = 1;
+
+if (d % 2 !== 0 || e % 2 !== 0 || f % 2 !== 0) {
+    console.log("true");
+} else {
+    console.log("false");
+}
