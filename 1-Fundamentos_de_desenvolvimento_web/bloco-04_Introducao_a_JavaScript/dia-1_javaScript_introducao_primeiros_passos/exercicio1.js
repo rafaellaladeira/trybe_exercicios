@@ -36,6 +36,7 @@ if (a > 0) {
 //____________________________________________________________________________
 
 // ângulos do triângulo:
+// para atender as duas condições do somatório ser = 180 e todos os angulos seram maiores de 0 graus. Foi utilizado um IF dentro do outro. 
 
 const ang1 = 90;
 const ang2 = 45;
