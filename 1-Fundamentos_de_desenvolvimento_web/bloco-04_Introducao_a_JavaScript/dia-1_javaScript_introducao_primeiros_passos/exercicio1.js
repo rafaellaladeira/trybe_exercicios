@@ -41,4 +41,15 @@ const ang1 = 90;
 const ang2 = 45;
 const ang3 = 45;
 
-console.log(ang1 + ang2 + ang3 === 180);
+let postivos = ang1>0 && ang2>0 && ang3>0;
+let somatorio = ang3 + ang2 + ang1;
+
+if (postivos) {
+    if (somatorio === 180) {
+        console.log("true");
+    } else {
+        console.log("false");
+    };
+} else {
+    console.log("ERRO")
+}
