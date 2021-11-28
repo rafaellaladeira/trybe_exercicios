@@ -19,3 +19,11 @@ let menu = ['Home', 'Serviços', 'Portfólio', 'Links'];
 
 menu.push("Contato");
 console.log(menu);
+
+//4)
+
+let groceryList = ['Arroz', 'Feijão', 'Alface', 'Melancia'];
+
+for (var i = 0 ; i < groceryList.length ; i+=1) {
+console.log(groceryList[i]);
+}
