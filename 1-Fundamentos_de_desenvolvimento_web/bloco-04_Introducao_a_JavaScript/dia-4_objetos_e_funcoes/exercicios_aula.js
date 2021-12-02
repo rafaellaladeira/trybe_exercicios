@@ -30,6 +30,7 @@ console.log(player.bestInTheWorld.length)
 
 console.log( "A jogadora " + fullName + " foi eleita a melhor do mundo por " + player.bestInTheWorld.length + " vezes.");
 
+
 //5) "A jogadora possui 2 medalhas de ouro e 3 medalhas de prata".
 
 console.log("A jogadora possui " + player.medal.golden + " medalhas de ouro e " + player.medal.silver + " medalhas de prata.")
