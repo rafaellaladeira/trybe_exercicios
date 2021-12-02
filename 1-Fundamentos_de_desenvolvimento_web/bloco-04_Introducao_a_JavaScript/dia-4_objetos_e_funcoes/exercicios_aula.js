@@ -10,6 +10,9 @@ let player = {
     }
 }
 
+for ( let teste in player) {
+    console.log(player[teste]);
+}
 // 2)  "A jogadora Marta Silva tem 34 anos de idade".
 
 let fullName = player.name + " " + player.lastName;
