@@ -1,10 +1,25 @@
-document.querySelector('#header-container h1').style.background = 'rgb(76,164,109)'';
-document.getElementById('header-container').style.color = 'white';
+const header = document.getElementById('header-container');
+header.style.backgroundColor = 'rgb(0, 176, 105)';
+header.style.color = 'white';
 
+const emergencyTasks = document.getElementsByClassName('emergency-tasks')[0];
+emergencyTasks.style.backgroundColor = 'rgb(255, 159, 132)'; // PESSEGO
 
-document.getElementsByTagName('section')[1].style.color = 'white';
-document.getElementsByClassName('no-emergency-tasks')[0].style.background = 'black';
-document.querySelectorAll('.emergency-tasks')[0].style.background = 'purple'
+const emergencyTasksHeaders = document.querySelectorAll('.emergency-tasks h3');
+for (let index = 0; index < emergencyTasksHeaders.length; index += 1) {
+  emergencyTasksHeaders[index].style.backgroundColor = 'rgb(165, 0, 243)';
+}
 
-document. getElementById('footer-container').style.background = 'black';
-document.getElementById('footer-container').style.color = 'white';
+const noEmergencyTasks = document.querySelector('.no-emergency-tasks');
+noEmergencyTasks.style.backgroundColor = 'pink'; // amarelo
+
+const noEmergencyTasksHeaders = document.querySelectorAll('.no-emergency-tasks h3');
+for (let index = 0; index < noEmergencyTasksHeaders.length; index += 1) {
+  noEmergencyTasksHeaders[index].style.backgroundColor = 'rgb(35, 37, 37)';  //preto
+  noEmergencyTasksHeaders[index].style.color = 'white'; 
+}
+
+const footer = document.getElementById('footer-container');
+footer.style.backgroundColor = 'rgb(0, 53, 51)';
+footer.style.color = 'white';
+
