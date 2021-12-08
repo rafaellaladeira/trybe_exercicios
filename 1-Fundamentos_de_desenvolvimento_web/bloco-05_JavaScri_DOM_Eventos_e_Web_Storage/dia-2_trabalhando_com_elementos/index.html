@@ -56,11 +56,19 @@
             // Parte 2: 
             //1) Crie um irmão para elementoOndeVoceEsta
                 let irmaoNovo = document.createElement('id');
-                elementoOndeVoceEsta.appendChild(irmaoNovo);
+                pai.appendChild(irmaoNovo);
 
             //2) Crie um filho para elementoOndeVoceEsta 
+
+                  let novoFilho = document.createElement('id');
+                  elementoOndeVoceEsta.appendChild(novoFilho);
+
             //3) Crie um filho para primeiroFilhoDoFilho .
-            //4) A partir desse filho criado, acesse terceiroFilho .
+
+                  let filhoDoFilho = document.createElement('id');
+                  primeiroFilhoDoFilho.appendChild(filhoDoFilho0);
+
+            //4) A partir desse filho criado, acesse terceiroFilho .        
 
 
             //5) Remova todos os elementos filhos de paiDoPai exceto pai, elementoOndeVoceEsta e primeiroFilhoDoFilho .
