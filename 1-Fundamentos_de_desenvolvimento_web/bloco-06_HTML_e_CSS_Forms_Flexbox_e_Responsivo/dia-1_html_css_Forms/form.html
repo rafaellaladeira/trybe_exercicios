@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de currículo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <h1> Preencha o formulário abaixo: </h1>
+    <fieldset>
+        <legend>Informações pessoais</legend>
+        <label>Nome </label>
+        <input type="text" name="name" required maxlength="40" placeholder="Digite seu nome">
+
+        <label>Email</label>
+        <input type="email" name="email" required maxlength="50" placeholder="Digite seu email">
+
+        <label>CPF </label>
+        <input type="text" name="CPF" required maxlength="11" placeholder="Digite seu CPF">
+
+        <label>Endereço</label>
+        <input type="text" class="adress" name="adress" required maxlength="200" placeholder="Digite seu endereço">
+
+        <br><br>
+
+        <label>Cidade </label>
+        <input type="text" name="city" required maxlength="28" placeholder="Digite sua cidade">
+
+        <br><br>
+
+        <div>
+            <label for=""> Tipo: </label>
+            <input type="radio" name="type"> Casa
+            <input type="radio" name="type"> Apartamento
+        </div>
+    </fieldset>
+    <br>
+    <fieldset>
+        <legend>Dados do último emprego</legend>
+        <label>Resumo do currículo</label><textarea name="resume" maxlength="1000" required ></textarea>
+        <br>
+
+        <label>Cargo </label>
+        <input class="size" type="text" name="work" required maxlength="40" placeholder="Digite o cargo">
+
+        <br><br>
+
+        <label>Descrição do Cargo </label>
+        <input class="size" type="text" name="description" required maxlength="500" placeholder="Descrição do cargo">
+
+        <label>Data de início</label><input type="date" name="date"required>
+
+
+
+    </fieldset>
+</body>
+</html>
+
+Estado - Select
+Todos os estados do Brasil
+Utilize estruturas de repetição via JavaScript para gerar os <option>
+Campo obrigatório
+
+Logo abaixo do formulário, crie um botão que:
+Chame uma função JavaScript e interrompa o fluxo automático do form utilizando o preventDefault() . Note que isso vai impedir as validações do HTML ao fazer o submit
+Implemente, agora, no Javascript , as validações que foram pedidas ao longo da montagem do formulário.
+Caso todos os dados sejam válidos, monte uma <div> com o consolidado dos dados que foram inseridos no formulário.
+Caso haja algum dado inválido, mostre em uma <div> uma mensagem de erro. Se o erro for na Data de Início , a mensagem deve ser contextualizada.
+Crie um botão Limpar que limpa todos os campos do formulário e a <div> com seu currículo também.
