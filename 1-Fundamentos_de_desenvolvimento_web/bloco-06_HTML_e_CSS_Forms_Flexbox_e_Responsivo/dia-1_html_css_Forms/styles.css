@@ -1,12 +1,11 @@
 * {
-    padding: 10px;
+  max-width: 80%;
+  width: 100%;
+  margin:2px;
+  
+  
 }
 
-.adress {
-  width: 400px;
-}
-
-.size {
-    width: 500px;
-    height: 50px;
+h1 {
+  box-shadow: 5px 4px;
 }
