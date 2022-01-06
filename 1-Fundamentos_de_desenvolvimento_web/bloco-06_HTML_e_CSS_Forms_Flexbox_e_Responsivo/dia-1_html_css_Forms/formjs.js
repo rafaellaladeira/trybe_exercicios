@@ -41,4 +41,17 @@ const estados =  [
 
 window.onload = function () {
     createOptions();
+
+    const submit = document.querySelector('.submit');
+    submit.addEventListener('click', submitAll);
+    const button = document.querySelector('.button');
+    button.addEventListener('click', clearAll);
+}
+
+function submitAll() {
+
+}
+
+function clearAll() {
+    
 }

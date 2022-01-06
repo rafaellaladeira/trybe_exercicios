@@ -1,11 +1,12 @@
-* {
-  max-width: 80%;
-  width: 100%;
-  margin:2px;
-  
-  
+h1 {
+  text-align: center;
+  box-shadow: 5px 5px 5px rgb(167, 196, 134);
 }
 
-h1 {
-  box-shadow: 5px 4px;
+section {
+  border-radius: 5px;
+}
+
+.adress {
+  width: 500px;
 }
