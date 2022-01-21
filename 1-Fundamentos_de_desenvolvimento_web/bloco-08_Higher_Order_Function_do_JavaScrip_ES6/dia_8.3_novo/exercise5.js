@@ -72,8 +72,9 @@ const expectedResult = [
 
 
 function fantasyOrScienceFictionAuthors(array) {
-    const alfa = array.filter((book) => book.genre === 'Ficção Científica' || book.genre === 'Fantasia');
-    return alfa.sort((a,b) => a.author.name - b.author.name);
+    return array.filter((book) => book.genre === 'Ficção Científica' || book.genre === 'Fantasia')
+    .map((book) => book.author.name)
+    .sort();
 }
 
 console.log(fantasyOrScienceFictionAuthors(books));
