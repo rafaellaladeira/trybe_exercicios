@@ -56,6 +56,7 @@ const regions = [
 } */
 
 const objArray = require('./data');
+
 const regioes = objArray.regions;
 const estados = objArray.states;
 const cidades = objArray.cities;
