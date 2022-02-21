@@ -1,5 +1,4 @@
 import React from "react";
-import PropTypes from 'prop-types';
 
 const pokemons = [
     {
@@ -103,16 +102,4 @@ const pokemons = [
     }
   ];
   
-  Pokemon.propTypes = {
-    pokemons:PropTypes.shape({
-        name: PropTypes.string,
-        type: PropTypes.string,
-        averageWeight: PropTypes.shape({
-            value: PropTypes.number,
-            measurementUnit: PropTypes.string,
-        }),
-        image: PropTypes.string,
-  })
-  }
-
   export default pokemons;

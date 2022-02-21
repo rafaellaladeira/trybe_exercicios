@@ -11,3 +11,12 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.pokedex {
+  display: flex;
+}
+
+.pokemon {
+  border-style: double;
+border-color: black;
+}
