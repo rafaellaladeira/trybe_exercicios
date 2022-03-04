@@ -15,9 +15,11 @@ class App extends Component {
     fetch('https://rickandmortyapi.com/api/character')
       .then(response => response.json())
       .then(data => {
-        this.setState({characters: data.results})
-    })
-   }  
+        this.setState({
+          characters: data.results
+        })
+     })
+  }  
 
 
    render() {
