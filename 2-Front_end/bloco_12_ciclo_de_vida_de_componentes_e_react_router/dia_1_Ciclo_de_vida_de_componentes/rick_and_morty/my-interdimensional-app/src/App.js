@@ -11,8 +11,8 @@ class App extends Component {
   }
 
   componentDidMount () {
-    console.log('component');
-    const result = await fetch('https://rickandmortyapi.com/api/character')
+    console.log('component')
+    fetch('https://rickandmortyapi.com/api/character')
       .then(response => response.json())
       .then(data => {
         this.setState({characters: data.results})
